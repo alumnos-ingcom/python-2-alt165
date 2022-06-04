@@ -10,8 +10,9 @@ y False cuando no lo sea, sin utilizar módulo. (%)
 """
 from funciones import limita_entrada as obtiene_numero
 
+
 def es_par(numero):
-    
+
     """es_par(int) -> boolean
     Esta funcion toma un valor entero y devuelve True cuando es par
     y False cuando no lo es
@@ -21,6 +22,7 @@ def es_par(numero):
     if comparar == numero:
         return True
     return False
+
 
 def principal():
 
@@ -34,6 +36,7 @@ def principal():
     else:
         print(f"El número {numero} no es par")
 
+
 if __name__ == "__main__":
-    
+
     principal()
