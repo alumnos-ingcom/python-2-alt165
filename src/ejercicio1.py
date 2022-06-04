@@ -11,6 +11,7 @@ y False cuando no lo sea, sin utilizar módulo. (%)
 from funciones import limita_entrada as obtiene_numero
 
 def es_par(numero):
+    
     """es_par(int) -> boolean
     Esta funcion toma un valor entero y devuelve True cuando es par
     y False cuando no lo es
@@ -22,6 +23,7 @@ def es_par(numero):
     return False
 
 def principal():
+
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
@@ -33,5 +35,5 @@ def principal():
         print(f"El número {numero} no es par")
 
 if __name__ == "__main__":
+    
     principal()
-
