@@ -21,7 +21,7 @@ Tienen una superposición de cuatro elementos.
 
 def superposicion(secuencia1, secuencia2):
     """superposicion(str, str) -> list[tuple()]
-    esta funcion devuelve una lista con los indices y los caracteres
+    esta funcion devuelve una lista de tuplas con los indices y los caracteres
     que se superponen
     """
 
