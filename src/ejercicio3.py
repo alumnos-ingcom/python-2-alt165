@@ -41,6 +41,13 @@ def superposicion(secuencia1, secuencia2):
     return resultado
 
 
+def grado_de_superposicion(secuencia1, secuencia2):
+    """grado_de_superposicion(str, str) -> int
+    """
+    resultado = superposicion(secuencia1, secuencia2)
+    grado = len(resultado)
+    return grado
+
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
@@ -48,10 +55,8 @@ def principal():
     """
     secuencia1 = input("Ingrese el primer texto:")
     secuencia2 = input("Ingrese el segundo texto:")
-    resultado = superposicion(secuencia1, secuencia2)
-    print(resultado)
-    cantidad_superpuesta = len(resultado)
-    print(f"La cantidad de caracteres superpuestos es: {cantidad_superpuesta}")
+    resultado = grado_de_superposicion(secuencia1, secuencia2)
+    print(f"La cantidad de caracteres superpuestos es: {resultado}")
 
 
 if __name__ == "__main__":
