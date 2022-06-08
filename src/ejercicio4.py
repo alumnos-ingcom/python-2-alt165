@@ -35,6 +35,8 @@ def principal():
     (La entrada, la llamada al algoritmo y la salida)
     """
     numero = obtiene_numero("Ingrese numero para calcular Fibonacci: ", 2)
+    # obtiene numero como está utilizada acá solo permite ingresar valores
+    #enteros mayores a 2
     resultado = fibonacci(numero)
     print(resultado)
 
