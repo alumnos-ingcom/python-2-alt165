@@ -15,7 +15,7 @@ def es_par(numero):
 
     """es_par(int) -> boolean
     Esta funcion toma un valor entero y devuelve True cuando es par
-    y False cuando no lo es
+    y False cuando no lo es. Observacion: El 0 se toma como valor par
     """
     comparar = numero // 2
     comparar = comparar * 2
